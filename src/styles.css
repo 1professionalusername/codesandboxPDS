@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+---------------------END_OF_CSS_RESET--------------------------------------------------
+  .body {
+  display: flex;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  background-color: #93b793;
+}
+
+.title h1 {
+  padding-top: 25px;
+  font-family: "Fascinate", cursive;
+  font-size: 5rem;
+}
+.title h3 {
+  font-size: 1.5rem;
+  font-family: "Lobster", cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+  font-family: filson-soft, sans-serif;
+  font-weight: 900;
+  background-color: #93b793;
+}
+nav h4 {
+  padding: 0rem 2rem 0rem 2rem;
+}
+.top_image {
+  display: flex;
+  justify-content: center;
+  height: 34rem;
+}
+.top_image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.say_hello {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  height: 34rem;
+  max-width: 100%;
+  background-color: rgb(1, 182, 182);
+}
+
+.text h3 {
+  padding: 5rem 0 0 8rem;
+  font-family: "Fascinate", cursive;
+  font-size: 2rem;
+}
+.text h5 {
+  font-family: rubik, sans-serif;
+  font-weight: 500;
+  padding: 1.5rem 0 0 8rem;
+  height: 18rem;
+  width: 30rem;
+  font-size: 1.35em;
+}
+
+.button_div {
+  padding: 5rem 0 0;
+}
+.button-72 {
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(179, 132, 201, 0.84),
+    rgba(57, 31, 91, 0.84) 50%
+  );
+  border-radius: 42px;
+  border-width: 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Quicksand, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 15px;
+  margin: 0;
+  padding: 1.1rem 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#b384c9, #391f5b 50%);
+}
+
+.cupcake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34rem;
+  width: 50%;
+}
+.cupcake img {
+  height: 30.5rem;
+}
+
+.triptych {
+  display: flex;
+  justify-content: space-around;
+  height: 34rem;
+  max-width: 100%;
+  background-color: #ffffcc;
+  padding: 4rem;
+}
+
+.triptych img {
+  /* margin: 2px; */
+  border: 2px solid black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+}
+.footer_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.social a {
+  padding: 0.5rem;
+}
