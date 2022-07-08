@@ -7,8 +7,10 @@ export default function SayHello() {
         <h3>Say Hello</h3>
         <h5>
           Primrose would love to be at your next event. Our baked goods are the
-          perfect treats for birthdays, anniversaries, or any occasion. Get in
-          touch today!
+          perfect treats for birthdays, anniversaries, graduations or any
+          occasion.
+          <br />
+          Get in touch today!
           <div className="button_div">
             <input type="button" className="button-72" value="GET IN TOUCH" />
           </div>

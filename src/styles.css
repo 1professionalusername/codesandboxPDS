@@ -143,7 +143,7 @@ table {
   font-family: "Fascinate", cursive;
   font-size: 5rem;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .title h1 {
     font-size: 3.5rem;
   }
@@ -163,14 +163,11 @@ nav {
   font-weight: 900;
   background-color: #93b793;
 }
-@media screen and (max-width: 620px) {
-  nav {
-  }
-}
+
 nav h4 {
   padding: 0rem 2rem 0rem 2rem;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   nav h4 {
     padding: 0rem 0.4rem 0rem 0.4rem;
   }
@@ -179,8 +176,7 @@ a:link {
   color: black;
   text-decoration: none;
 }
-a:visited {
-}
+
 a:hover {
   color: yellow;
 }
@@ -194,7 +190,7 @@ a:active {
   justify-content: center;
   height: 34rem;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .top_image {
     height: 20rem;
   }
@@ -213,7 +209,7 @@ a:active {
   max-width: 100%;
   background-color: rgb(1, 182, 182);
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .say_hello {
     height: 20rem;
   }
@@ -224,29 +220,30 @@ a:active {
   font-family: "Fascinate", cursive;
   font-size: 2rem;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .text h3 {
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 3rem 0rem 2rem 2rem;
   }
 }
 .text h5 {
   font-family: rubik, sans-serif;
   font-weight: 500;
-  padding: 3rem 0 0 8rem;
+  padding: 3rem 0rem 0rem 8rem;
   height: 18rem;
   width: 30rem;
   font-size: 1.35em;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .text h5 {
     width: 15rem;
-    padding: 0rem;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 2rem;
   }
 }
 .button_div {
   padding: 5rem 0 0;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .button_div {
     padding-top: 3rem;
   }
@@ -288,7 +285,7 @@ a:active {
   border: 2px solid black;
   border-radius: 250px;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .cupcake img {
     display: none;
   }
@@ -301,11 +298,10 @@ a:active {
   background-color: #ffffcc;
   padding: 4.5rem 2rem 4.5rem 2rem;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .triptych {
     flex-direction: column;
     height: 20rem;
-    padding: ;
   }
 }
 
@@ -313,14 +309,15 @@ a:active {
   margin: 2px;
   border: 2px solid black;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .triptych img {
     height: 250px;
     width: 125px;
-    padding: 1rem 3.5rem;
+    padding: 0rem;
+    margin: 0rem;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 450px) {
   .lemon {
     display: none;
   }
