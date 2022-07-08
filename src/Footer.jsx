@@ -1,6 +1,5 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -9,9 +8,6 @@ export default function Footer() {
       <div className="social">
         <a href="https://www.instagram.com/gleauxsweetshop/">
           <FaInstagram />{" "}
-        </a>
-        <a href="https://www.instagram.com/gleauxsweetshop/">
-          <FaFacebookSquare />{" "}
         </a>
       </div>
     </div>

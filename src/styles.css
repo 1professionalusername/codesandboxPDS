@@ -143,6 +143,12 @@ table {
   font-family: "Fascinate", cursive;
   font-size: 5rem;
 }
+@media screen and (max-width: 620px) {
+  .title h1 {
+    font-size: 3.5rem;
+  }
+}
+
 .title h3 {
   font-size: 1.5rem;
   font-family: "Lobster", cursive;
@@ -157,13 +163,41 @@ nav {
   font-weight: 900;
   background-color: #93b793;
 }
+@media screen and (max-width: 620px) {
+  nav {
+  }
+}
 nav h4 {
   padding: 0rem 2rem 0rem 2rem;
 }
+@media screen and (max-width: 620px) {
+  nav h4 {
+    padding: 0rem 0.4rem 0rem 0.4rem;
+  }
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+
 .top_image {
   display: flex;
   justify-content: center;
   height: 34rem;
+}
+@media screen and (max-width: 620px) {
+  .top_image {
+    height: 20rem;
+  }
 }
 .top_image img {
   object-fit: cover;
@@ -179,23 +213,43 @@ nav h4 {
   max-width: 100%;
   background-color: rgb(1, 182, 182);
 }
+@media screen and (max-width: 620px) {
+  .say_hello {
+    height: 20rem;
+  }
+}
 
 .text h3 {
   padding: 5rem 0 0 8rem;
   font-family: "Fascinate", cursive;
   font-size: 2rem;
 }
+@media screen and (max-width: 620px) {
+  .text h3 {
+    padding: 2rem 0rem 2rem 0rem;
+  }
+}
 .text h5 {
   font-family: rubik, sans-serif;
   font-weight: 500;
-  padding: 1.5rem 0 0 8rem;
+  padding: 3rem 0 0 8rem;
   height: 18rem;
   width: 30rem;
   font-size: 1.35em;
 }
-
+@media screen and (max-width: 620px) {
+  .text h5 {
+    width: 15rem;
+    padding: 0rem;
+  }
+}
 .button_div {
   padding: 5rem 0 0;
+}
+@media screen and (max-width: 620px) {
+  .button_div {
+    padding-top: 3rem;
+  }
 }
 .button-72 {
   background-color: initial;
@@ -213,10 +267,9 @@ nav h4 {
   letter-spacing: 0.04em;
   line-height: 15px;
   margin: 0;
-  padding: 1.1rem 1.1rem;
+  padding: 1rem 1.1rem;
   text-align: center;
   text-decoration: none;
-  vertical-align: baseline;
 }
 
 .button-72:hover {
@@ -232,20 +285,45 @@ nav h4 {
 }
 .cupcake img {
   height: 30.5rem;
+  border: 2px solid black;
+  border-radius: 250px;
 }
-
+@media screen and (max-width: 620px) {
+  .cupcake img {
+    display: none;
+  }
+}
 .triptych {
   display: flex;
   justify-content: space-around;
   height: 34rem;
   max-width: 100%;
   background-color: #ffffcc;
-  padding: 4rem;
+  padding: 4.5rem 2rem 4.5rem 2rem;
+}
+@media screen and (max-width: 620px) {
+  .triptych {
+    flex-direction: column;
+    height: 20rem;
+    padding: ;
+  }
 }
 
 .triptych img {
-  /* margin: 2px; */
+  margin: 2px;
   border: 2px solid black;
+}
+@media screen and (max-width: 620px) {
+  .triptych img {
+    height: 250px;
+    width: 125px;
+    padding: 1rem 3.5rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .lemon {
+    display: none;
+  }
 }
 
 .footer {
@@ -257,7 +335,7 @@ nav h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   width: 100%;
   font-family: "Lobster", cursive;
@@ -268,8 +346,4 @@ nav h4 {
   justify-content: center;
   font-size: 3rem;
   width: 100%;
-}
-
-.social a {
-  padding: 0.5rem;
 }

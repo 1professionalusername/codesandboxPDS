@@ -10,12 +10,12 @@ export default function SayHello() {
           perfect treats for birthdays, anniversaries, or any occasion. Get in
           touch today!
           <div className="button_div">
-            <input type="button" class="button-72" value="GET IN TOUCH" />
+            <input type="button" className="button-72" value="GET IN TOUCH" />
           </div>
         </h5>
       </div>
       <div className="cupcake">
-        <img src="cupcake2.jpg" alt="pastry" />
+        <img src="primrose_doughnuts.jpg" alt="pastry" />
       </div>
     </div>
   );
