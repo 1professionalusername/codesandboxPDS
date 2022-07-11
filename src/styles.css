@@ -324,20 +324,19 @@ a:active {
     border: none;
   }
 }
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .cupcake {
-    margin: 2rem;
   }
 }
-/* @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .cheesecake {
   }
-}
+} */
 @media screen and (max-width: 450px) {
   .lemon {
     display: none;
   }
-} */
+}
 
 .footer {
   display: flex;
