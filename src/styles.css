@@ -285,9 +285,9 @@ a:active {
   width: 50%;
 }
 .donut img {
-  height: 30.5rem;
+  height: 32rem;
   border: 2px solid black;
-  border-radius: 250px;
+  border-radius: 50px 50px 15px 50px;
 }
 @media screen and (max-width: 450px) {
   .donut img {
