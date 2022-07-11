@@ -16,8 +16,8 @@ export default function SayHello() {
           </div>
         </h5>
       </div>
-      <div className="cupcake">
-        <img src="primrose_doughnuts.jpg" alt="pastry" />
+      <div className="donut">
+        <img src="primrose_doughnuts.jpg" alt="donuts" />
       </div>
     </div>
   );

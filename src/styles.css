@@ -169,7 +169,7 @@ nav h4 {
 }
 @media screen and (max-width: 450px) {
   nav h4 {
-    padding: 0rem 0.4rem 0rem 0.4rem;
+    padding: 0.5rem 1rem 0rem 1rem;
   }
 }
 a:link {
@@ -222,7 +222,8 @@ a:active {
 }
 @media screen and (max-width: 450px) {
   .text h3 {
-    padding: 3rem 0rem 2rem 2rem;
+    padding: 0.5rem 0rem 2rem 2rem;
+    font-size: 2rem;
   }
 }
 .text h5 {
@@ -231,24 +232,28 @@ a:active {
   padding: 3rem 0rem 0rem 8rem;
   height: 18rem;
   width: 30rem;
-  font-size: 1.35em;
+  font-size: 1.35rem;
+  line-height: 25px;
 }
 @media screen and (max-width: 450px) {
   .text h5 {
     width: 15rem;
-    padding: 1rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
     margin: 0rem 0rem 0rem 2rem;
+    font-size: 1.4rem;
+    line-height: 24px;
   }
 }
 .button_div {
-  padding: 5rem 0 0;
+  padding: 2rem 0rem 0rem;
 }
 @media screen and (max-width: 450px) {
   .button_div {
-    padding-top: 3rem;
+    padding: 1.5rem 0rem 0rem 0rem;
   }
 }
 .button-72 {
+  display: block;
   background-color: initial;
   background-image: linear-gradient(
     rgba(179, 132, 201, 0.84),
@@ -264,29 +269,28 @@ a:active {
   letter-spacing: 0.04em;
   line-height: 15px;
   margin: 0;
-  padding: 1rem 1.1rem;
+  padding: 1.1rem 1rem 0.8rem 1rem;
   text-align: center;
-  text-decoration: none;
 }
 
 .button-72:hover {
   background-image: linear-gradient(#b384c9, #391f5b 50%);
 }
 
-.cupcake {
+.donut {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 34rem;
   width: 50%;
 }
-.cupcake img {
+.donut img {
   height: 30.5rem;
   border: 2px solid black;
   border-radius: 250px;
 }
 @media screen and (max-width: 450px) {
-  .cupcake img {
+  .donut img {
     display: none;
   }
 }
@@ -302,31 +306,43 @@ a:active {
   .triptych {
     flex-direction: column;
     height: 20rem;
+    padding: 0rem 0rem 0rem 0rem;
+    object-fit: fill;
   }
 }
 
 .triptych img {
+  width: 100%;
   margin: 2px;
   border: 2px solid black;
 }
 @media screen and (max-width: 450px) {
   .triptych img {
-    height: 250px;
-    width: 125px;
-    padding: 0rem;
+    height: 50%;
+    width: 100%;
     margin: 0rem;
+    border: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cupcake {
+    margin: 2rem;
+  }
+}
+/* @media screen and (max-width: 450px) {
+  .cheesecake {
   }
 }
 @media screen and (max-width: 450px) {
   .lemon {
     display: none;
   }
-}
+} */
 
 .footer {
   display: flex;
   flex-direction: column;
-  height: 15rem;
+  height: 12rem;
 }
 .footer_text {
   display: flex;
