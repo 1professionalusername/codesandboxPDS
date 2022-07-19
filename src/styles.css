@@ -165,6 +165,7 @@ nav {
 }
 
 nav h4 {
+  color: black;
   padding: 0rem 2rem 0rem 2rem;
 }
 @media screen and (max-width: 450px) {
