@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../pages/Layout";
+import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Brownies from "../components/Brownies";
@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="body">
       <Header />
-      {/* <Layout /> */}
+      <Nav />
       <Brownies />
       <SayHello />
       <Triptych />
