@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
+//Renders copy, button and image for middle sections
 export default function SayHello() {
   return (
     <div className="say_hello">
@@ -12,7 +14,10 @@ export default function SayHello() {
           <br />
           Get in touch today!
           <div className="button_div">
-            <input type="button" className="button-72" value="GET IN TOUCH" />
+            <Link to="/order">
+              {" "}
+              <input type="button" className="button-72" value="GET IN TOUCH" />
+            </Link>
           </div>
         </h5>
       </div>

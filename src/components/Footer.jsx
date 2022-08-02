@@ -1,6 +1,7 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 
+//Renders Footer component and social media links within footer
 export default function Footer() {
   return (
     <div className="footer" alt="contact">

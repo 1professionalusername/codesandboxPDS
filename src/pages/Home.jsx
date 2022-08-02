@@ -6,6 +6,7 @@ import Brownies from "../components/Brownies";
 import SayHello from "../components/SayHello";
 import Triptych from "../components/Triptych";
 
+//Landing page. Displays components
 function Home() {
   return (
     <div className="body">

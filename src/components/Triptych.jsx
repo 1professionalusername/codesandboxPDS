@@ -1,5 +1,6 @@
 import React from "react";
 
+//Renders the three images near the bottom of the page
 export default function Triptych() {
   return (
     <div className="triptych">

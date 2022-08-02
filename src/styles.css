@@ -165,7 +165,7 @@ nav {
 }
 
 nav h4 {
-  color: black;
+  color: ;
   padding: 0rem 2rem 0rem 2rem;
 }
 @media screen and (max-width: 450px) {
@@ -173,6 +173,11 @@ nav h4 {
     padding: 0.5rem 1rem 0rem 1rem;
   }
 }
+
+a {
+  color: black;
+}
+
 a:link {
   color: black;
   text-decoration: none;
@@ -270,7 +275,7 @@ a:active {
   letter-spacing: 0.04em;
   line-height: 15px;
   margin: 0;
-  padding: 1.1rem 1rem 0.8rem 1rem;
+  padding: 1rem 1rem 0.8rem 1rem;
   text-align: center;
 }
 

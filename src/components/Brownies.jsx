@@ -1,5 +1,6 @@
 import React from "react";
 
+//Renders banner image
 export default function Brownies() {
   return (
     <div className="top_image">
